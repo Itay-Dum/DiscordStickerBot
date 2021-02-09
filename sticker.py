@@ -96,7 +96,7 @@ class Data:
     '''.strip().split("\n\n"))
     STUDENTS_BACKUP = set(STUDENTS)
 
-    TOKEN = "NzY5OTg1MzMxNDE1NDgyMzY4.X5W-uA.M5O3I5b1fqP27wFFbqfbMFV2mVM"
+    TOKEN = "TOKEN"
     with open('saved.txt', 'r+') as file:
         SAVED = file.read().split('\n')
 
